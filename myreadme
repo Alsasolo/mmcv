@@ -1,0 +1,4 @@
+###git clone https://github.com/open-mmlab/mmcv.git 
+clone fail
+solution：git config --global  --unset https.https://github.com.proxy 
+          git config --global  --unset http.https://github.com.proxy
